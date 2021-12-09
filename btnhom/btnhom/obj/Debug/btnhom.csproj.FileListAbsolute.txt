@@ -14,3 +14,8 @@ C:\Users\Administrator\dlu\btnhom_ltcsdl\btnhom\btnhom\obj\Debug\btnhom.csproj.C
 C:\Users\Administrator\dlu\btnhom_ltcsdl\btnhom\btnhom\obj\Debug\btnhom.csproj.CopyComplete
 C:\Users\Administrator\dlu\btnhom_ltcsdl\btnhom\btnhom\obj\Debug\btnhom.exe
 C:\Users\Administrator\dlu\btnhom_ltcsdl\btnhom\btnhom\obj\Debug\btnhom.pdb
+C:\Users\Administrator\dlu\btnhom_ltcsdl\btnhom\btnhom\bin\Debug\Guna.UI2.dll
+C:\Users\Administrator\dlu\btnhom_ltcsdl\btnhom\btnhom\obj\Debug\btnhom.View.Login.resources
+C:\Users\Administrator\dlu\btnhom_ltcsdl\btnhom\btnhom\obj\Debug\btnhom.View.NhanVienView.resources
+C:\Users\Administrator\dlu\btnhom_ltcsdl\btnhom\btnhom\obj\Debug\btnhom.View.ProductView.resources
+C:\Users\Administrator\dlu\btnhom_ltcsdl\btnhom\btnhom\obj\Debug\btnhom.View.MatHangView.resources

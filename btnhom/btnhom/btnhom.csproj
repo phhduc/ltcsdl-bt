@@ -42,9 +42,14 @@
     <Reference Include="EntityFramework.SqlServer, Version=6.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089, processorArchitecture=MSIL">
       <HintPath>..\packages\EntityFramework.6.4.4\lib\net45\EntityFramework.SqlServer.dll</HintPath>
     </Reference>
+    <Reference Include="Guna.UI2">
+      <HintPath>..\..\..\..\tool\Guna_UI_Framework_Ultimate_v2.0.0.1\Guna_UI_Framework_Ultimate_v2.0.0.1\Guna_UI_Framework_Ultimate_v2.0.0.1\Guna.UI-Framework-Lib-master\Guna.UI2 WinForms\.net 4.0\Guna.UI2.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.VisualBasic" />
     <Reference Include="System" />
     <Reference Include="System.ComponentModel.DataAnnotations" />
     <Reference Include="System.Core" />
+    <Reference Include="System.Management" />
     <Reference Include="System.Runtime.Serialization" />
     <Reference Include="System.Security" />
     <Reference Include="System.Xml.Linq" />
@@ -97,8 +102,35 @@
     <Compile Include="Form1.Designer.cs">
       <DependentUpon>Form1.cs</DependentUpon>
     </Compile>
+    <Compile Include="Model\LoaiBL.cs" />
+    <Compile Include="Model\MatHangBL.cs" />
+    <Compile Include="Model\NhanVienBL.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="View\MatHangView.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="View\MatHangView.Designer.cs">
+      <DependentUpon>MatHangView.cs</DependentUpon>
+    </Compile>
+    <Compile Include="View\Login.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="View\Login.Designer.cs">
+      <DependentUpon>Login.cs</DependentUpon>
+    </Compile>
+    <Compile Include="View\NhanVienView.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="View\NhanVienView.Designer.cs">
+      <DependentUpon>NhanVienView.cs</DependentUpon>
+    </Compile>
+    <Compile Include="View\ProductView.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="View\ProductView.Designer.cs">
+      <DependentUpon>ProductView.cs</DependentUpon>
+    </Compile>
     <EmbeddedResource Include="Form1.resx">
       <DependentUpon>Form1.cs</DependentUpon>
     </EmbeddedResource>
@@ -110,7 +142,20 @@
     <Compile Include="Properties\Resources.Designer.cs">
       <AutoGen>True</AutoGen>
       <DependentUpon>Resources.resx</DependentUpon>
+      <DesignTime>True</DesignTime>
     </Compile>
+    <EmbeddedResource Include="View\Login.resx">
+      <DependentUpon>Login.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="View\MatHangView.resx">
+      <DependentUpon>MatHangView.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="View\NhanVienView.resx">
+      <DependentUpon>NhanVienView.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="View\ProductView.resx">
+      <DependentUpon>ProductView.cs</DependentUpon>
+    </EmbeddedResource>
     <EntityDeploy Include="Data\ToyStore.edmx">
       <Generator>EntityModelCodeGenerator</Generator>
       <LastGenOutput>ToyStore.Designer.cs</LastGenOutput>
@@ -118,6 +163,11 @@
     <None Include="Data\ToyStore.edmx.diagram">
       <DependentUpon>ToyStore.edmx</DependentUpon>
     </None>
+    <Content Include="fonts\fontawesome-webfont.eot" />
+    <Content Include="fonts\fontawesome-webfont.ttf" />
+    <Content Include="fonts\fontawesome-webfont.woff" />
+    <Content Include="fonts\fontawesome-webfont.woff2" />
+    <Content Include="fonts\FontAwesome.otf" />
     <None Include="packages.config" />
     <None Include="Properties\Settings.settings">
       <Generator>SettingsSingleFileGenerator</Generator>
@@ -134,6 +184,11 @@
   </ItemGroup>
   <ItemGroup />
   <ItemGroup>
+    <Content Include="asset\wall.jpg" />
+    <Content Include="asset\images.png" />
+    <Content Include="asset\sidebar.jpg" />
+    <Content Include="Content\font-awesome.css" />
+    <Content Include="Content\font-awesome.min.css" />
     <Content Include="Data\ToyStore.Context.tt">
       <Generator>TextTemplatingFileGenerator</Generator>
       <DependentUpon>ToyStore.edmx</DependentUpon>
@@ -144,6 +199,7 @@
       <DependentUpon>ToyStore.edmx</DependentUpon>
       <LastGenOutput>ToyStore.cs</LastGenOutput>
     </Content>
+    <Content Include="fonts\fontawesome-webfont.svg" />
   </ItemGroup>
   <ItemGroup>
     <Service Include="{508349B6-6B84-4DF5-91F0-309BEEBAD82D}" />
