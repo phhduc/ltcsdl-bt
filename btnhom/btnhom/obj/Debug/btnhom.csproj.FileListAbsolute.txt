@@ -1,0 +1,16 @@
+C:\Users\Administrator\dlu\btnhom_ltcsdl\btnhom\btnhom\bin\Debug\btnhom.exe.config
+C:\Users\Administrator\dlu\btnhom_ltcsdl\btnhom\btnhom\bin\Debug\btnhom.exe
+C:\Users\Administrator\dlu\btnhom_ltcsdl\btnhom\btnhom\bin\Debug\btnhom.pdb
+C:\Users\Administrator\dlu\btnhom_ltcsdl\btnhom\btnhom\bin\Debug\EntityFramework.dll
+C:\Users\Administrator\dlu\btnhom_ltcsdl\btnhom\btnhom\bin\Debug\EntityFramework.SqlServer.dll
+C:\Users\Administrator\dlu\btnhom_ltcsdl\btnhom\btnhom\bin\Debug\EntityFramework.xml
+C:\Users\Administrator\dlu\btnhom_ltcsdl\btnhom\btnhom\bin\Debug\EntityFramework.SqlServer.xml
+C:\Users\Administrator\dlu\btnhom_ltcsdl\btnhom\btnhom\obj\Debug\btnhom.csproj.AssemblyReference.cache
+C:\Users\Administrator\dlu\btnhom_ltcsdl\btnhom\btnhom\obj\Debug\btnhom.csproj.SuggestedBindingRedirects.cache
+C:\Users\Administrator\dlu\btnhom_ltcsdl\btnhom\btnhom\obj\Debug\btnhom.Form1.resources
+C:\Users\Administrator\dlu\btnhom_ltcsdl\btnhom\btnhom\obj\Debug\btnhom.Properties.Resources.resources
+C:\Users\Administrator\dlu\btnhom_ltcsdl\btnhom\btnhom\obj\Debug\btnhom.csproj.GenerateResource.cache
+C:\Users\Administrator\dlu\btnhom_ltcsdl\btnhom\btnhom\obj\Debug\btnhom.csproj.CoreCompileInputs.cache
+C:\Users\Administrator\dlu\btnhom_ltcsdl\btnhom\btnhom\obj\Debug\btnhom.csproj.CopyComplete
+C:\Users\Administrator\dlu\btnhom_ltcsdl\btnhom\btnhom\obj\Debug\btnhom.exe
+C:\Users\Administrator\dlu\btnhom_ltcsdl\btnhom\btnhom\obj\Debug\btnhom.pdb
